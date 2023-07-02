@@ -8,7 +8,7 @@ function validar(){
     let validor = texto.match(/^[a-z\s]*$/);
 
     if(!validor || validor===0){
-        alert("Favor de ingresar sólo letras minúscula y SIN acento");
+        alert("Favor de ingresar sólo letras minúsculas y SIN acentos");
         location.reload();
         return true;
     }
